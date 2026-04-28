@@ -3,7 +3,7 @@ layout: about
 title: home
 permalink: /
 subtitle: Useful web projects, small games, tools, and experiments.
-nav: true
+nav: false
 nav_order: 1
 
 profile:

@@ -2,6 +2,10 @@
 
 A simple, clean, and responsive Jekyll theme for academics.
 
+## Local Project Context
+
+- Before making future changes in this cloned repo, read [CODEX_PROJECT_CONTEXT.md](CODEX_PROJECT_CONTEXT.md). It summarizes the current `quotuo.github.io` project hub state, likely customization targets, and verification workflow for Codex.
+
 ## Quick Links by Role
 
 - **Are you a coding agent?** → Read [`.github/copilot-instructions.md`](.github/copilot-instructions.md) first (tech stack, build, CI/CD, common pitfalls & solutions)

@@ -68,11 +68,21 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-directory",
+          section: "News",},{id: "projects-brush-jjaemu",
+          title: 'Brush Jjaemu',
+          description: "A live browser game available at brushjjaemu.cc.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/brush-jjaemu/";
+            },},{id: "projects-project-directory",
           title: 'Project Directory',
           description: "A living directory for live projects, tools, games, content sites, and experiments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project-directory/";
+            },},{id: "projects-your-name-in-landsat",
+          title: 'Your Name in Landsat',
+          description: "A live web app available at yournameinlandsat.cc.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/your-name-in-landsat/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
